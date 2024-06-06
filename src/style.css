@@ -106,7 +106,7 @@ html, body {
 
 #floating ul {
     position: absolute;
-    bottom: -8em;
+    bottom: -6em;
     left: 0;
     width: 100%;
     transition: bottom .1s ease-in;
