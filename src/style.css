@@ -51,12 +51,13 @@ html, body {
 }
 
 #container {
+    display: flex;
     min-height: 100%;
     background: #eee;
     text-align: center;
-    display: flex;
     flex-direction: column;
     padding-bottom: 2.5em;
+    justify-content: space-between;
 }
 
 #map {
@@ -68,7 +69,6 @@ html, body {
 }
 
 #buttons {
-    margin-top: auto;
     display: flex;
     justify-content: space-evenly;
 }
